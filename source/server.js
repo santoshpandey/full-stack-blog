@@ -1,6 +1,8 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import path from "path";
+const __dirname = path.resolve();
+
 
 const app = express();
 
